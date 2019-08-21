@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,body{
+	background-image: url(imagenes/abstract-1780273_1920.png);
+	background-color: #e2e2e2;
+}
+ul#menu {
+ font-family: 'Montserrat', sans-serif;
+ background: #333;
+ width: 1520px;
+ height: 30px;
+ float:left;
+ padding: 5px;
+}
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+	color: rgba(7,133,155);
+ 	cursor:pointer;
+}
+
+ul#menu li {
+ color: #fff;
+ float: left;
+ list-style: none;
+ margin: 0% 5%;
+}
+  
+ul#menu li:hover{
+ color: rgba(7,133,155);
+ cursor:pointer;
+}
+  
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 49px;
+ background: #333;
+ color: #fff;
+ padding: 3px 0px 3px 3px;
+ margin: 0;
+ }
+  
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+}
+ 
+ 
+ul#menu ul li a{
+ color: #333;
+}
+  
+ul#menu ul li a:hover{
+ color: rgba(7,133,155);
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}

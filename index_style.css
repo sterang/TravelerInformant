@@ -1,0 +1,65 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica;
+	font-weight: lighter;
+
+}
+html,body{
+	background-image: url(imagenes/abstract-1780273_1920.png);
+	background-color: #e2e2e2;
+}
+section#formulario{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top:-300px;
+	width: 400px;
+	min-height: 600px;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 10px;
+}
+p#titulo{
+	font-size: 1.8em;
+	text-align: center;
+	margin-top: 40px
+}
+p#nombre{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 8px
+}
+p{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2px
+}
+input[type="text"],input[type="password"],input[type="mail"]{
+	width: 350px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+}
+input[type="submit"]{
+	margin: 20px;
+	width:360px;
+	height: 40px;
+	margin-bottom: 20px;
+	outline: none;
+	border:0px;
+	background-color: #75b6dc;
+	color:white;
+	font-size: 1.2em;
+	border-radius: 10px;
+	-webkit-box-shadow:0px 5px 0px #659dbf;
+	-moz-box-shadow:0px 5px 0px #659dbf;
+}
